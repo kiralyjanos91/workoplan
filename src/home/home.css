@@ -1,0 +1,153 @@
+.cover-image-container{
+    max-width: 100%;
+    padding:0;
+    border-top: 2px solid #dc3545;
+    border-bottom: 2px solid #dc3545;
+}
+
+.cover-image-container > .row{
+    width:100%;
+    margin:0;
+}
+
+.cover-image-container > .row > .col{
+    padding:0;
+}
+
+.cover-row{
+    display:grid;
+    height: calc(100vh - 65px);
+}
+
+.cover-text-elements{
+    cursor: pointer;
+}
+.cover-text-col{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    grid-row-start: 1;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-image-col{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: hidden;
+}
+
+.cover-image{
+    width:100%;
+    height: 105%;
+    filter: blur(4px) brightness(65%);
+    object-fit: cover;
+}
+
+.cover-text{
+    background-color: #dc3545;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.start-now{
+    text-align: center;
+}
+
+.down-icon-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-now-down{
+    width: fit-content;
+    height: fit-content;
+}
+
+#bodyPartsSection{
+    padding-top: 70px
+}
+
+.bodypartlist{
+    padding-top:40px;
+}
+
+.bodypart{
+    margin-bottom:30px;
+}
+
+.bodypart-image-col{
+    display:grid;
+    height:100%;
+}
+
+.bodyPart-image-overlay{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    z-index:1;
+    transition: 0.3s;
+    opacity: 1;
+    font-size: 1.4rem;
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius:5px;
+}
+
+.bodypart-link{
+    text-decoration: none;
+}
+
+.bodyPart-image-overlay:hover{
+    background-color: #a5c9ca95;
+}
+
+.bodypartimage{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width:100%;
+    height:100%;
+    border-radius:5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bodypartname{
+    background-color: #395b64de;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.bodypartimage:hover{
+    color: white;
+}
+
+.home-page{
+    min-height:70vh;
+}
+
+.loading-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+}

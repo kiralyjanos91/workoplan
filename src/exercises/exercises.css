@@ -1,0 +1,122 @@
+.exercises-loading-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+}
+
+.exercise{
+    max-width:100%;
+}
+
+.exercises-headline{
+    margin-top:60px;
+    margin-bottom:60px;
+    display:flex;
+    align-items: center;
+}
+
+.add-to-plan > .btn-primary{
+    width:100%;
+    background-color: #395B64;
+    border:none;
+    border-radius:3px 3px 0 0;
+}
+
+.add-to-plan > .dropdown-menu.show {
+    width: 100%;
+}
+
+.exercise-name{
+    margin-top:5px;
+    margin-bottom:40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.exercise-name::first-letter{
+    text-transform: uppercase;
+}
+
+.exercise-image-container{
+    display: grid;
+}
+
+.exercise-img{
+    width:100%;
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+}
+
+.savedicon{
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: flex-end;
+    z-index: 2;
+    color: black;
+    height: fit-content;
+}
+
+.delete-from-saved{
+    width:30px
+}
+
+.image-hover-overlay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    font-size:20px;
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index:1;
+    opacity: 0;
+    font-size:20px;
+    font-weight: 400;
+    content-visibility:hidden;
+    transition:0.3s;
+}
+
+.image-hover-overlay:hover{
+    opacity: 1;
+    background-color: #77b4c478;
+    content-visibility:visible;
+}
+
+.modal-title{
+    margin-bottom:3vh;
+}
+
+.pop-up-text::first-letter{
+    text-transform: capitalize;
+}
+
+.modal-img{
+    width: 100%;
+    max-width: 500px;
+    border-radius:5px;
+}
+
+.dropdown-planned{
+    background-color: #A5C9CA;
+}
+
+.dropdown-planned:focus, .dropdown-planned:active{
+    background-color: #A5C9CA;
+}
+
+.check-icon{
+    height:17px
+}
+
+

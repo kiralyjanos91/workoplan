@@ -1,0 +1,42 @@
+.App{
+  background-color: #2C3333;
+  color: rgb(255, 255, 255);
+}
+
+.btn{
+  box-shadow: none !important;
+}
+
+.primary-color-button > button {
+  background-color: #395b64 !important;
+  border: 1px solid #395b64 !important;
+}
+
+.primary-color-button {
+  background-color: #395b64 !important;
+  border: 1px solid #395b64 !important;
+  border-radius: 5px;
+}
+
+.primary-color-button:hover,
+.primary-color-button:active, 
+.primary-color-button:focus,
+.primary-color-button > button:hover, 
+.primary-color-button > button:active, 
+.primary-color-button > button:focus{
+  background-color: #325058 !important;
+  border: 1px solid #325058 !important;
+  border-radius: 5px;
+}
+
+.modal-save-button{
+  background-color: #F05454 !important;
+  border: 1px solid #F05454 !important;
+}
+
+.modal-save-button:hover, 
+.modal-save-button:active, 
+.modal-save-button:focus{
+  background-color: #d54949 !important;
+  border-color:#d54949 !important
+}

@@ -1,0 +1,28 @@
+.empty-list > .row{
+    border: 1px dashed white;
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.empty-list{
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.empty-dropdown > button{
+    background-color: #F05454 !important;
+    border: 1px solid #F05454 !important;
+  }
+  
+.empty-dropdown > button:hover, 
+.empty-dropdown > button:active, 
+.empty-dropdown > button:focus{
+    background-color: #d54949 !important;
+    border-color:#d54949 !important;
+}

@@ -1,0 +1,124 @@
+.planned-days-list-header{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planned-headline-col{
+    width: fit-content;
+}
+
+.choose-day-col{
+    max-width: fit-content;
+}
+
+.plan-list{
+    justify-content: center;
+}
+
+.choose-day-button-col{
+    max-width: fit-content;
+}
+
+.plan-dropdown > button{
+    background-color: #F05454;
+    border: none;
+}
+
+.plan-dropdown > button:hover, 
+.plan-dropdown > button:active, 
+.plan-dropdown > button:focus{
+    background-color: #d54949;
+}
+
+.plan-item-first-line{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.planned-day{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-name{
+    width:fit-content;
+    float: right;
+    color:#F05454;
+    font-size: calc(1.1rem + .3vw);
+    cursor: pointer;
+}
+
+.plan-name::first-letter{
+    text-transform: uppercase;
+}
+
+.index-and-arrows{
+    max-width: fit-content;
+}
+
+.exercise-index{
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise-index > h4{
+    margin:0;
+}
+
+.plan-move{
+    max-width: fit-content;
+    padding:0;
+    cursor: pointer;
+}
+
+.plan-exercise-image{
+    max-width: 100%;
+}
+
+.remove-from-plan{
+    display: flex;
+    align-items: center;
+}
+
+.remove-from-plan > img{
+    height: 24px;
+}
+
+.plan-note{
+    width:100%;
+    background-color:#E7F6F2;
+    height:fit-content;
+    min-height: 30px;
+}
+
+.plan-buttons{
+    row-gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-item{
+    justify-content: center;
+    padding:0;
+}
+
+.plan-item > hr{
+    margin-top:30px;
+}
+
+.modal-title{
+    margin-bottom:3vh;
+}
+
+.modal-title::first-letter{
+    text-transform: uppercase;
+}
+
+.pop-up-text > p::first-letter{
+    text-transform: capitalize;
+}
