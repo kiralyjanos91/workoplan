@@ -19,7 +19,7 @@ export default function Exercises(){
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '56bd2c0a8bmshb28498e9bd62633p1d4ce4jsn48be7ca34c90',
+                    'X-RapidAPI-Key': 'Get your own api key from: https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/',
                     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
                 }
             };
