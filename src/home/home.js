@@ -22,8 +22,8 @@ export default function Home(){
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'RapidAPI exercisedb key',
-                'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+                    'X-RapidAPI-Key': 'Get your own api key from: https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/',
+                    'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
                 }
             };   
             fetch('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', options)

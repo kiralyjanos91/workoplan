@@ -1,8 +1,9 @@
 .cover-image-container{
     max-width: 100%;
-    padding:0;
-    border-top: 2px solid #dc3545;
-    border-bottom: 2px solid #dc3545;
+    padding: 0;
+    margin-top: -56px;
+    padding-bottom: 56px;
+    height: 100vh;
 }
 
 .cover-image-container > .row{
@@ -16,7 +17,7 @@
 
 .cover-row{
     display:grid;
-    height: calc(100vh - 65px);
+    height: 100vh;
 }
 
 .cover-text-elements{

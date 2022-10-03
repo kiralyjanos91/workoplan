@@ -6,7 +6,7 @@ import { NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import { useSelector } from "react-redux"
 import "./navbar.css"
-import Logo from "../images/logo3.png"
+import Logo from "../images/logo.png"
 
 export default function Navigation() {
   const savedArray = useSelector((state)=>state.savedList.list)
@@ -23,7 +23,7 @@ export default function Navigation() {
   })
 
   return (
-    <Navbar collapseOnSelect sticky="top" bg="dark" expand="lg">
+    <Navbar collapseOnSelect bg="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/"><img src={Logo} alt="logo" className="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
