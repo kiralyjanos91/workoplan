@@ -22,7 +22,7 @@ export default function Home(){
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'Get your own api key from: https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/',
+                    'X-RapidAPI-Key': 'RapidApi exercisedb Api Key',
                     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
                 }
             };   
