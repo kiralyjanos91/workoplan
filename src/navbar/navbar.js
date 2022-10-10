@@ -23,7 +23,7 @@ export default function Navigation() {
   })
 
   return (
-    <Navbar collapseOnSelect bg="dark" expand="lg">
+    <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/"><img src={Logo} alt="logo" className="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
