@@ -62,6 +62,10 @@
     .dropItem {
         padding-left: 10px;
     }
+
+    .navbar-nav{
+        margin-bottom: 56px;
+    }
 }
     
 .nav-dropdown-item{
