@@ -22,7 +22,7 @@
     width:100%;
     background-color: #395B64;
     border:none;
-    border-radius:3px 3px 0 0;
+    border-radius:5px 5px 0 0;
 }
 
 .add-to-plan > .dropdown-menu.show {
@@ -46,6 +46,7 @@
 
 .exercise-img{
     width:100%;
+    border-radius: 0 0 5px 5px;
     grid-column-start:1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -90,6 +91,7 @@
 .image-hover-overlay:hover{
     opacity: 1;
     background-color: #77b4c478;
+    border-radius: 0 0 5px 5px;
     content-visibility:visible;
 }
 
