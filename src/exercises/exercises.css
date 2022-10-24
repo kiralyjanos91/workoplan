@@ -104,9 +104,11 @@
 }
 
 .modal-img{
+    border-radius: 5px;
     width: 100%;
-    max-width: 500px;
-    border-radius:5px;
+    height: 100%;
+    max-width: calc(100vh - 120px);
+    max-height: calc(100vh - 120px);
 }
 
 .dropdown-planned{
