@@ -45,6 +45,7 @@
 }
 
 .exercise-img{
+    z-index: 2;
     width:100%;
     border-radius: 0 0 5px 5px;
     grid-column-start:1;
@@ -52,6 +53,23 @@
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: white;
+}
+
+.exercise-image-loading-col {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    min-height: 296px;
+}
+
+.exercise-list {
+    min-height: 80vh;
 }
 
 .savedicon{
@@ -122,5 +140,7 @@
 .check-icon{
     height:17px;
 }
+
+
 
 

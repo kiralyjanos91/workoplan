@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Row , Col } from "react-bootstrap"
+import { Row , Col, Spinner } from "react-bootstrap"
 import { useDispatch , useSelector } from "react-redux"
 import { addToSaved , removeFromSaved } from "../savedlist/savedListSlice"
 import { addToPlan , removeFromPlan } from "../planner/plannerSlice"
@@ -82,6 +82,11 @@ export default function Exercise({ name , equipment , gif , target , bodyPart, a
                         src={gif}
                         className="exercise-img"
                     />
+                    <Col
+                        className = "exercise-image-loading-col h-100"
+                    >
+                        <Spinner animation="border" variant="light" />
+                    </Col>
                 </Col>
                 <p className="exercise-name" onClick={handleShow}>{name}</p>
             </Col>
