@@ -19,14 +19,18 @@ export default function Exercises(){
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'RapiApi Key',
+                    'X-RapidAPI-Key': '56bd2c0a8bmshb28498e9bd62633p1d4ce4jsn48be7ca34c90',
                     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
                 }
             };
             
             fetch(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPartWithSpace}`, options)
                 .then(response => response.json())
-                .then(response => dispatch(apiDataUpdate({...apiData,[bodyPartWithSpace]:response})))
+                .then(response => {
+                    dispatch(apiDataUpdate({...apiData,[bodyPartWithSpace]:response}))
+                    console.log(response)
+                }
+                )
                 .catch(err => console.error(err))
         }
         setIsLoading(false) 
